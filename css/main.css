@@ -1,6 +1,6 @@
 .body {
-    background-color: rgb(3,142,159);
-    border: 3px solid rgb(14,100,120);
+    background-color: rgb(62, 103, 109);
+    border: 3px solid rgb(65, 104, 110);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 50% 30px;
@@ -65,13 +65,32 @@
     top: 17px;
   }
   
+  .money-box
+  {
+    background-color: rgb(91, 117, 106);
+    border: 3px solid rgb(53, 58, 56);
+    width: 100px;
+    position: absolute;
+    bottom: -10px;
+    left: 120px;
+
+  }
+  @font-face {
+    font-family: retroFont;
+    src: url(../fonts/notalot25.ttf);
+  }
+  .money-display{
+    margin: auto;
+    text-align: center;
+    font-family: retroFont,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
   .screen-display {
     background-color: lightgray;
-    border: 5px solid black;
+    border: 5px solid rgb(54, 51, 51);
     border-radius: 3px;
     box-shadow: inset 0 0 10px gray;
-    height: 165px;
-    width: 180px;
+    height: 200px;
+    width: 280px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -308,14 +327,31 @@
     position: absolute;
   }
   
-  .a {
-    right: 0px;
+  .a1 {
     top: 10px;
+    left: 10px;
   }
   
-  .b {
-    bottom: 13px;
-    right: 62px;
+  .b1 {
+    top: 90px;
+    left: 10px;
+  }
+  .c1 {
+    top: 170px;
+    left: 10px;
+  }
+  .a2 {
+    top: 10px;
+    left: 110px;
+  }
+  
+  .b2 {
+    top: 90px;
+    left: 110px;
+  }
+  .c2 {
+    top: 170px;
+    left: 110px;
   }
   
   .button-text-height {
@@ -339,13 +375,22 @@
     bottom: 92px;
   }
   
-  .button-select {
-    left: 120px;
+  .copper-select {
+    left: 50px;
+    bottom: 295px;
   }
   
-  .button-start {
-    right: 120px;
+  .gold-select {
+    left: 140px;
+    bottom: 295px;
+
   }
+  .silver-select {
+    left: 230px;
+    bottom: 295px;
+  }
+  
+  
   
   .select {
     margin-top: 20px;
